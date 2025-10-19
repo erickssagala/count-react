@@ -1,23 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
+import Count from './components/Count';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Count>
+        <h2>
+          Congragulations you have hit 100!!!!
+        </h2>
+        <h2>
+          Congragulations WINNER you have hit 200!!!!
+        </h2>
+      </Count>
     </div>
   );
 }
